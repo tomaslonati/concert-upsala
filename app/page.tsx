@@ -551,34 +551,6 @@ export default function GestorButacasTeatro() {
               <CardDescription>Sistema de gestión de butacas para el concierto anual del Colegio Upsala</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
-              {/* Selector de teatro */}
-              <div className="text-center">
-                <Label htmlFor="selector-teatro" className="text-sm font-medium">
-                  Seleccionar función:
-                </Label>
-                <select
-                  id="selector-teatro"
-                  className="mt-2 border rounded px-3 py-2 text-sm mx-auto block"
-                  value={teatroSeleccionado}
-                  onChange={e => setTeatroSeleccionado(e.target.value)}
-                >
-                  {TEATROS.map(t => (
-                    <option key={t.key} value={t.key}>{t.label}</option>
-                  ))}
-                </select>
-              </div>
-
-              {/* Mostrar imagen del layout */}
-              <div className="flex justify-center">
-                <Image
-                  src="/images/teatro-layout.jpeg"
-                  alt="Layout del teatro"
-                  width={600}
-                  height={400}
-                  className="rounded-lg border"
-                />
-              </div>
-
               <div className="text-center space-y-4">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                   <div className="bg-blue-50 p-3 rounded ">
