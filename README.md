@@ -2,6 +2,8 @@
 
 > **English summary.** Seat-assignment and guest-management web app built for Colegio Upsala's 2025 annual concert: three independent shows with 324 seats each, single, multi-seat and bulk assignment, search, PDF guest lists, JSON import/export and automatic local persistence. Built with Next.js 15, React 19, TypeScript, Tailwind CSS and shadcn/ui.
 
+<p align="center"><img src="docs/screenshot.png" alt="Seat map with three shows and 324 seats each" width="90%"></p>
+
 Sistema web desarrollado para el **Colegio Upsala** para gestionar las invitaciones y asignación de asientos del **Concert Anual 2025**. Permite administrar **3 funciones independientes** con **324 butacas cada una**.
 
 ![Concert Upsala 2025](https://img.shields.io/badge/Concert-Upsala%202025-purple?style=for-the-badge)
